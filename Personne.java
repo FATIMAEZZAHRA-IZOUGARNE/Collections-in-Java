@@ -1,5 +1,4 @@
 import java.util.Objects;
-import java.util.Comparator;
 
 public class Personne implements Comparable<Personne> {
 	private String nom;
@@ -26,7 +25,7 @@ public class Personne implements Comparable<Personne> {
 	 
 	 //methode compareTo
 	 public int compareTo(Personne p) {
-		 return this.age- p.age;
+		 return this.nom.compareTo(p.nom);
 	 }
 	 
 	 //methode toString
