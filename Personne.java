@@ -23,9 +23,14 @@ public class Personne implements Comparable<Personne> {
 	    return false;
 	 }
 	 
-	 //methode compareTo
+	 //method compareTo for name
 	 public int compareTo(Personne p) {
 		 return this.nom.compareTo(p.nom);
+	 }
+    
+	 //method compareTo for age 
+	 public int compareTo(Personne p) {
+		 return this.age- p.age;
 	 }
 	 
 	 //methode toString
@@ -36,3 +41,4 @@ public class Personne implements Comparable<Personne> {
 
    
 }
+
