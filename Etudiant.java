@@ -30,5 +30,10 @@ public class Etudiant {
 	public String toString() {
 		return "Nom :"+nom +"|| Matricule: "+matricule;
 	}
+	
+	//--------------------------------------
+	public int getMatricule() {
+		return this.matricule;
+	}
 
 }
